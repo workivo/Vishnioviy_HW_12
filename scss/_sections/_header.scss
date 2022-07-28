@@ -1,0 +1,97 @@
+.header {
+    padding-top: 33px;
+    padding-bottom: 30px;
+}
+
+.header-box {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.header__contacts-phone {
+    position: relative;
+    text-decoration: none;
+    margin-right: 62.5px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.header__contacts-phone::before {
+    position: absolute;
+    content: url(../images/phone.png);
+    top: 0;
+    left: -31px;
+}
+
+.header__cart {
+    content: url(../images/cart.png);
+    margin-right: 15px;
+}
+
+.header__user {
+    content: url(../images/account.png);
+}
+
+.header__nav {
+    padding-top: 42px;
+}
+
+.nav {
+    position: relative;
+    font-size: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4F4F4F;
+}
+
+.nav__link:first-child::after {
+    position: absolute;
+    content: url(../images/nav_vector.png);
+    left: 80px;
+}
+
+.nav__link {
+    margin-right: 40px;
+}
+
+.nav__link:first-child {
+    margin-right: 59px;
+}
+
+.nav__link:last-child {
+    margin-right: 0px;
+}
+
+.input__wrapper {
+    position: relative;
+}
+
+.input__search {
+    padding-top: 17px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    width: 345px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #828282;
+    background: #F2F2F2;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+}
+
+.input__wrapper::after {
+    position: absolute;
+    content: url(../images/search.png);
+    right: 20px;
+    top: 15.87px;
+}
+
+
+
